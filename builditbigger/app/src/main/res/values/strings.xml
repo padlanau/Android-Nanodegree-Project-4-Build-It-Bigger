@@ -1,0 +1,7 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="todo">Press the button to show some jokes!</string>
+    <string name="button_text">Crack some Jokes</string>
+
+</resources>

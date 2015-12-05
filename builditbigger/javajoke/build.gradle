@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+/*
+If you get this error message:
+Warning:[options] bootstrap class path not set in conjunction with -source 1.7
+
+change JAVE_HOME = C:\Program Files\Java\jdk1.8.0_45
+to
+                   C:\Program Files\Java\jdk1.7.0_79
+
+ did not work? whatever...
+*/
